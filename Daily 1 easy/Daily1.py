@@ -1,7 +1,7 @@
 import os
 
-arr = [10, 15, 4, 7]
-k = 18
+arr = [10, 15, 4, 3]
+k = 14
 
 def numsEquals(nums, target):
 
