@@ -17,7 +17,7 @@ def exProduct(arr):
         product = product * arr[x]
         step+=1 
     for x in range(len(arr)):
-        result.append(product/arr[x])
+        result.append(product//arr[x])
         step+=1
     print(result,step)
 
@@ -39,7 +39,7 @@ def noDivProduct(arr):
         product = 1
     print(result,step)
 
-t = [1,2,3,4,5]
+t = [23,5,32,7,44,11,88,76]
 
 exProduct(t)
 
